@@ -1,0 +1,29 @@
+/* Question.css */
+
+/* Style for error messages */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style for the text input field (textarea) */
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Add focus style to textarea */
+  textarea:focus {
+    border-color: #4a90e2;
+  }
+  
+  /* Style for textarea when it has an error */
+  textarea.error {
+    border-color: red;
+  }
+  
